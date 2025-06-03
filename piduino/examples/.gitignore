@@ -1,8 +1,0 @@
-build/
-cmake-build*/
-Makefile
-*.o
-*.d
-*.a
-*.mk 
-

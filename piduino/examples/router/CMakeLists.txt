@@ -1,4 +1,0 @@
-cmake_minimum_required(VERSION 3.0)
-
-add_subdirectory(router_client)
-add_subdirectory(router_server)
