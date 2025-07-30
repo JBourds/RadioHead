@@ -2,7 +2,12 @@
     "name": "RadioHead",
     "version": "1.0.0",
     "description": "Modified version of the RadioHead library.",
-    "dependencies": [],
+    "dependencies": [
+        {
+          "name": "SPI",
+          "frameworks": "arduino"
+        }
+    ],
     "build": {
         "libDFMode": "deep"
     },
