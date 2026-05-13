@@ -25,7 +25,9 @@ typedef void (*HandlerFunc)();
 
 // This is the maximum number of bytes that can be carried by the LORA.
 // We use some for headers, keeping fewer for RadioHead messages
+#ifndef RH_RF95_MAX_PAYLOAD_LEN
 #define RH_RF95_MAX_PAYLOAD_LEN RH_RF95_FIFO_SIZE
+#endif
 
 // The length of the headers we add.
 // The headers are inside the LORA's payload
